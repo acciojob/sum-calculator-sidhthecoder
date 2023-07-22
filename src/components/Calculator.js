@@ -19,7 +19,7 @@ const Calculator = () => {
     <div>
       <h1>Sum Calculator</h1>
       <input type="number" onChange={addSum} />
-      <p>Sum:{sum}</p>
+      <p>Sum: {sum}</p>
     </div>
   );
 };
